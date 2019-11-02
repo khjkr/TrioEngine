@@ -4,7 +4,7 @@ module.exports.index = (req, res) => {
     klog.log(req.ip + ' : index')
     
   
-    req.app.render('index', {view: count}, (err, html) => {
+    req.app.render('index', {}, (err, html) => {
       if(err) {
         res.writeHead({'Content-type' : 'text/html;charset=utf8'})
         klog.error('뷰 렌더링중 오류발생' + err.stack)
