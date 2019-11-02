@@ -1,0 +1,44 @@
+{
+  "name": "trioengine",
+  "version": "1.0.0",
+  "description": "Powerful web server engine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeonplex/TrioEngine.git"
+  },
+  "keywords": [
+    "webserver",
+    "web",
+    "express",
+    "server",
+    "trio",
+    "engine",
+    "powerful"
+  ],
+  "author": "khjkr",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/zeonplex/TrioEngine/issues"
+  },
+  "homepage": "https://github.com/zeonplex/TrioEngine#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "ddos": "^0.2.1",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-error-handler": "^1.1.0",
+    "express-session": "^1.17.0",
+    "http": "0.0.0",
+    "korean-logger": "^1.0.6",
+    "path": "^0.12.7",
+    "pug": "^2.0.4",
+    "serve-static": "^1.14.1"
+  }
+}
