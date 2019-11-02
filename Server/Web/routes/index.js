@@ -1,4 +1,3 @@
-var count = 0
 module.exports.index = (req, res) => {
     const klog = require('korean-logger')
     klog.log(req.ip + ' : index')
@@ -13,7 +12,6 @@ module.exports.index = (req, res) => {
         res.end()
         return
       }
-      count++
       res.end(html)
     })
   }
