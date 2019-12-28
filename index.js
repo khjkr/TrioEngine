@@ -29,7 +29,7 @@ app.use(cookieParser())
 app.use(expressSession({
   secret: '!@#$%!^#!&^#&!',
   resave: true,
-  aveUninitialized: true
+  saveUninitialized: true
 }))
 
 loader.init(app, router)
